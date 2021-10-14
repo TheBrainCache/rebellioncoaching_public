@@ -37,3 +37,15 @@ matt@Azure:~/rebellioncoaching_public$ git push azure master
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://$rebellioncoaching:dp4pfD8Tz1WFvdn6uzbvrtBlx9pAT3BnglNll669HcBNdbBacvn5PlRax1cS@rebellioncoaching.scm.azurewebsites.net'
 
+
+
+
+-------------------
+
+One command
+az webapp up --name rebellioncoaching-now --html
+
+This did create a new page, but it does not show the changes that I have in index
+
+
+
