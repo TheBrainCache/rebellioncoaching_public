@@ -22,4 +22,18 @@ matt@Azure:~/rebellioncoaching_public$
 
 git init
 git add .
+git commit -m "trying to get v2 to show"
+
+az webapp deployment source config-local-git --name rebellioncoaching --resource-group MS_THEBRAINCACHE_RESOURCE_GROUP
+
+az webapp deployment list-publishing-credentials --name rebellioncoaching --resource-group MS_THEBRAINCACHE_RESOURCE_GROUP
+
+
+matt@Azure:~/rebellioncoaching_public$ git remote add azure 'https://$rebellioncoaching:dp4pfD8Tz1WFvdn6uzbvrtBlx9pAT3BnglNll669HcBNdbBacvn5PlRax1cS@rebellioncoaching.scm.azurewebsites.net'
+fatal: remote azure already exists.
+
+
+matt@Azure:~/rebellioncoaching_public$ git push azure master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://$rebellioncoaching:dp4pfD8Tz1WFvdn6uzbvrtBlx9pAT3BnglNll669HcBNdbBacvn5PlRax1cS@rebellioncoaching.scm.azurewebsites.net'
 
