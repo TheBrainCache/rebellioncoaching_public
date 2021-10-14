@@ -13,3 +13,9 @@ git config --global user.email "matt@thebraincache.com"
 git config --global user.name "Matt Schilb"
 
 cd rebellioncoaching_public
+
+Why does this show extra text (rebellioncoaching_public) after index.html????
+
+matt@Azure:~/rebellioncoaching_public$ ls
+index.html  README.md  rebellioncoaching_public
+matt@Azure:~/rebellioncoaching_public$
