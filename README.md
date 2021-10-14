@@ -19,3 +19,7 @@ Why does this show extra text (rebellioncoaching_public) after index.html????
 matt@Azure:~/rebellioncoaching_public$ ls
 index.html  README.md  rebellioncoaching_public
 matt@Azure:~/rebellioncoaching_public$
+
+git init
+git add .
+
